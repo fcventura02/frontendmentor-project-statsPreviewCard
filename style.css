@@ -28,7 +28,6 @@ main{
     padding-left: 70px;
     padding-right: 70px;
     position: relative;
-    padding-bottom: 90px;
 }
 
 h1, h2{
@@ -57,9 +56,9 @@ p.card-text{
 }
 
 .card-result {
-    position: absolute;
     margin-top: 10px;
     display: flex;
+    justify-content: space-between;
 }
 
 .card-result h2 {
@@ -68,11 +67,6 @@ p.card-text{
 
 .card-result p {
     font-size: 0.8rem;
-}
-
-.card-result-item:nth-child(2){
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .card-image{
